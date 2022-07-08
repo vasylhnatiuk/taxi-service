@@ -22,4 +22,4 @@ Authentication functionality for User(Driver)
 Managing drivers, cars, manufacturers
 Powerful admin panel for managing
 
-![](../../../var/folders/67/_fglvd3967xd40z5kly4301c0000gn/T/TemporaryItems/NSIRD_screencaptureui_NPneIx/Знімок екрана 2022-07-08 о 20.25.33.png)
+<img width="1440" alt="Знімок екрана 2022-07-08 о 20 29 47" src="https://user-images.githubusercontent.com/104974881/178041538-117f1d71-9bee-43eb-bf41-dff458e33903.png">
