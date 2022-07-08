@@ -29,4 +29,5 @@ Managing drivers, cars, manufacturers
 
 Powerful admin panel for managing
 
-<img width="1440" alt="Знімок екрана 2022-07-08 о 20 29 47" src="https://user-images.githubusercontent.com/104974881/178041538-117f1d71-9bee-43eb-bf41-dff458e33903.png">
+![image](https://user-images.githubusercontent.com/104974881/178042040-95a84d7d-a2c1-44f8-93ab-98951ffdc357.png)
+
