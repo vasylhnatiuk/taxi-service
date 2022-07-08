@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <div style="background: url('https://images.unsplash.com/photo-1599278340576-bff6a4c8f3a1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2064&q=80')" class="jumbotron bg-cover text-white">
+        <div class="container py-5 text-center">
+            <h1 class="display-1 font-weight-bold" style="margin-bottom: 20px">TAXI SERVICE</h1>
+        </div>
+    </div>
+    <div class="container py-3">
+        <h2 class="h3 font-weight-bold">Welcome to Best Taxi Ever!</h2>
+        <div class="row">
+            <div class="col-lg-10 mb-4">
+                <ul>
+                    <li><strong>Cars:</strong> {{ num_cars }}</li>
+                    <li><strong>Drivers:</strong> {{ num_drivers }}</li>
+                    <li><strong>Manufacturers:</strong> {{ num_manufacturers }}</li>
+                </ul>
+
+                <p>You have visited this page
+                    {{ num_visits }} time{{ num_visits|pluralize }}.
+                </p>
+            </div>
+    </div>
+{% endblock %}

@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% load crispy_forms_filters %}
+
+{% block content %}
+    <div class="p-3 text-center" style="margin-top: 58px;">
+      <h1>Car List</h1>
+      <button  class="bg-light" ><a href="{% url 'taxi:car-create' %}">Create new car</a></button>
+    </div>
+    <div class="p-3 bg-light" style="margin-top: 2px;">
+        <form action="" method="get" class="form-inline">
+            {{ search_form|crispy }}
+            <input class="btn btn-secondary " type="submit">
+        </form>
+    </div>
+    <div class="p-4">
+        {% if car_list %}
+          <table class="table bg-light">
+            <tr>
+              <th>ID</th>
+              <th>Model</th>
+              <th>Manufacturer</th>
+            </tr>
+
+            {% for car in car_list %}
+                <tr>
+                  <td>
+                      <a href="{% url "taxi:car-detail" pk=car.id %} ">{{ car.id }}</a>
+                  </td>
+                  <td>
+                      {{ car.model }}
+                  </td>
+                  <td>
+                      {{ car.manufacturer.name }}
+                  </td>
+              </tr>
+            {% endfor %}
+          </table>
+        {% else %}
+            <p>There are no cars in taxi</p>
+        {% endif %}
+{% endblock %}

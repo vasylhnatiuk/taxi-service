@@ -1,0 +1,52 @@
+/*body {*/
+/*    margin-top: 20px;*/
+/*    !*background-color: yellow;*!*/
+/*}*/
+/*table {*/
+/*    background-color: lightgoldenrodyellow;*/
+/*}*/
+/*.button.blue{*/
+/*  background-color: #269CE9;*/
+/*  border-color: #269CE9;*/
+/*}*/
+
+/*.button.blue:hover{*/
+/*  background-color: #70B9E8;*/
+/*}*/
+
+/*.button.blue:active{*/
+/*  background: #269CE9;*/
+/*}*/
+/*.photo-item {*/
+/*  height: 65vh;*/
+/*  min-height: 350px;*/
+/*  background: no-repeat center center scroll;*/
+/*  -webkit-background-size: cover;*/
+/*  -moz-background-size: cover;*/
+/*  -o-background-size: cover;*/
+/*  background-size: cover;*/
+/*}*/
+/*
+*
+* ==========================================
+* CUSTOM UTIL CLASSES
+* ==========================================
+*
+*/
+.bg-cover {
+    background-size: cover !important;
+}
+
+
+
+/*
+*
+* ==========================================
+* FOR DEMO PURPOSES
+* ==========================================
+*
+*/
+
+body {
+    min-height: 100vh;
+}
