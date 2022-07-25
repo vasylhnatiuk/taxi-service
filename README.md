@@ -9,7 +9,7 @@ username: test_user password: test12345
 
 # Installation
 Python 3 must be already installed
-
+```shell
 git clone https://github.com/vasylhnatiuk/taxi-service
 
 cd taxi-service
@@ -21,7 +21,7 @@ venv/scripts/activate
 pip install -r requirements.txt
 
 python manage.py runserver 
-
+```
 # Features
 Authentication functionality for User(Driver)
 
