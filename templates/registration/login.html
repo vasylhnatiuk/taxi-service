@@ -2,7 +2,7 @@
 {% load crispy_forms_filters %}
 
 {% block content %}
-
+    <div class="p-4" style="margin-top: 70px">
     {% if form.errors %}
       <p>Your username and password didn't match. Please try again.</p>
     {% endif %}
@@ -23,5 +23,5 @@
     <input type="hidden" name="next" value="{{ next }}" />
     </form>
     </div>
-
+    </div>
 {% endblock %}

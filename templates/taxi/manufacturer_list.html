@@ -1,14 +1,14 @@
 {% extends "base.html" %}
 
 {% block content %}
-    <div class="p-3 text-center" style="margin-top: 58px;">
-    <div>
-    <h1>Manufacturer List
-    </h1>
-        <button class="bg-light" style="margin-top: 2px">
-        <a href="{% url 'taxi:manufacturer-create' %}">Create new manufacturer</a></button></div>
+    <div class="p-3 text-center" style="margin-top: 80px;">
+        <div>
+        <h1>Manufacturer List
+        </h1>
+            <button class="bg-light" style="margin-top: 2px">
+            <a href="{% url 'taxi:manufacturer-create' %}">Create new manufacturer</a></button>
+        </div>
     </div>
-
     <div class="p-4">
         {% if manufacturer_list %}
           <table class="table bg-light">

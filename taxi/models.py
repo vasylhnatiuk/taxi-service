@@ -40,4 +40,3 @@ class Car(models.Model):
         return f"{self.manufacturer.name} {self.model}"
 
 
-
